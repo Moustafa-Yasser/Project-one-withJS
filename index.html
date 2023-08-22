@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor One</title>
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- normalize All Elements -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- icon css file  -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" id="main">
+    <div class="right">
+      <!-- Sign-up form start -->
+      <div class="info">
+        <div class="head">
+          <h1>Stay updated!</h1>
+
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+
+
+
+      </div>
+      <form action="">
+        <div class="new">
+          <label for="email">Email address <span>Vialed email required</span></label>
+          <input type="text" placeholder="email@company.com" id="email">
+        </div>
+        <button id="btn">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+    <div class="left">
+      <div class="photo">
+      </div>
+    </div>
+  </div>
+  <div class="onclick" id="cil">
+    <div class="o">
+      <img src="assets/images/icon-success.svg" alt="">
+      <h1>Thanks for subscribing!</h1>
+
+      <p>A confirmation email has been sent to <span id="gm"></span>.
+        Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+    <button id="ret">Dismiss message</button>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
